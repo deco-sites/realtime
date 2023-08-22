@@ -119,24 +119,22 @@ import * as i2$$$28 from "deco-sites/std/loaders/vtex/user.ts";
 import * as i2$$$29 from "deco-sites/std/loaders/vtex/wishlist.ts";
 import * as i2$$$30 from "deco-sites/std/loaders/x/font.ts";
 import * as i2$$$31 from "deco-sites/std/loaders/x/image.ts";
-import * as i2$$$32 from "deco-sites/std/loaders/x/realtime.ts";
-import * as i2$$$33 from "deco-sites/std/loaders/x/redirects.ts";
-import * as i2$$$34 from "deco-sites/std/loaders/x/redirectsFromCsv.ts";
+import * as i2$$$32 from "deco-sites/std/loaders/x/redirects.ts";
+import * as i2$$$33 from "deco-sites/std/loaders/x/redirectsFromCsv.ts";
 import * as i2$$$$7 from "deco-sites/std/handlers/sitemap.ts";
 import * as i2$$$$8 from "deco-sites/std/handlers/vtex/sitemap.ts";
 import * as i2$$$$$5 from "deco-sites/std/sections/Analytics.tsx";
-import * as i2$$$$$6 from "deco-sites/std/sections/AnalyticsRealtime.tsx";
-import * as i2$$$$$7 from "deco-sites/std/sections/configButterCMS.global.tsx";
-import * as i2$$$$$8 from "deco-sites/std/sections/configLinxImpulse.global.tsx";
-import * as i2$$$$$9 from "deco-sites/std/sections/configNuvemShop.tsx";
-import * as i2$$$$$10 from "deco-sites/std/sections/configOCC.global.tsx";
-import * as i2$$$$$11 from "deco-sites/std/sections/configShopify.global.tsx";
-import * as i2$$$$$12 from "deco-sites/std/sections/configVTEX.global.tsx";
-import * as i2$$$$$13 from "deco-sites/std/sections/configYourViews.global.tsx";
-import * as i2$$$$$14 from "deco-sites/std/sections/SEO.tsx";
-import * as i2$$$$$15 from "deco-sites/std/sections/SEOPDP.tsx";
-import * as i2$$$$$16 from "deco-sites/std/sections/SEOPLP.tsx";
-import * as i2$$$$$17 from "deco-sites/std/sections/VTEXPortalDataLayerCompatibility.tsx";
+import * as i2$$$$$6 from "deco-sites/std/sections/configButterCMS.global.tsx";
+import * as i2$$$$$7 from "deco-sites/std/sections/configLinxImpulse.global.tsx";
+import * as i2$$$$$8 from "deco-sites/std/sections/configNuvemShop.tsx";
+import * as i2$$$$$9 from "deco-sites/std/sections/configOCC.global.tsx";
+import * as i2$$$$$10 from "deco-sites/std/sections/configShopify.global.tsx";
+import * as i2$$$$$11 from "deco-sites/std/sections/configVTEX.global.tsx";
+import * as i2$$$$$12 from "deco-sites/std/sections/configYourViews.global.tsx";
+import * as i2$$$$$13 from "deco-sites/std/sections/SEO.tsx";
+import * as i2$$$$$14 from "deco-sites/std/sections/SEOPDP.tsx";
+import * as i2$$$$$15 from "deco-sites/std/sections/SEOPLP.tsx";
+import * as i2$$$$$16 from "deco-sites/std/sections/VTEXPortalDataLayerCompatibility.tsx";
 import * as i2$$$$$$4 from "deco-sites/std/actions/vnda/cart/addItem.ts";
 import * as i2$$$$$$5 from "deco-sites/std/actions/vnda/cart/setShippingAddress.ts";
 import * as i2$$$$$$6 from "deco-sites/std/actions/vnda/cart/updateCoupon.ts";
@@ -188,19 +186,19 @@ const manifest = {
     "deco-sites/realtime/sections/SimpleTextList.tsx": $$$$$$$$2,
     "deco-sites/realtime/sections/Theme.tsx": $$$$$$$$0,
     "deco-sites/std/sections/Analytics.tsx": i2$$$$$5,
-    "deco-sites/std/sections/AnalyticsRealtime.tsx": i2$$$$$6,
-    "deco-sites/std/sections/configButterCMS.global.tsx": i2$$$$$7,
-    "deco-sites/std/sections/configLinxImpulse.global.tsx": i2$$$$$8,
-    "deco-sites/std/sections/configNuvemShop.tsx": i2$$$$$9,
-    "deco-sites/std/sections/configOCC.global.tsx": i2$$$$$10,
-    "deco-sites/std/sections/configShopify.global.tsx": i2$$$$$11,
-    "deco-sites/std/sections/configVTEX.global.tsx": i2$$$$$12,
-    "deco-sites/std/sections/configYourViews.global.tsx": i2$$$$$13,
-    "deco-sites/std/sections/SEO.tsx": i2$$$$$14,
-    "deco-sites/std/sections/SEOPDP.tsx": i2$$$$$15,
-    "deco-sites/std/sections/SEOPLP.tsx": i2$$$$$16,
-    "deco-sites/std/sections/VTEXPortalDataLayerCompatibility.tsx": i2$$$$$17,
+    "deco-sites/std/sections/configButterCMS.global.tsx": i2$$$$$6,
+    "deco-sites/std/sections/configLinxImpulse.global.tsx": i2$$$$$7,
+    "deco-sites/std/sections/configNuvemShop.tsx": i2$$$$$8,
+    "deco-sites/std/sections/configOCC.global.tsx": i2$$$$$9,
+    "deco-sites/std/sections/configShopify.global.tsx": i2$$$$$10,
+    "deco-sites/std/sections/configVTEX.global.tsx": i2$$$$$11,
+    "deco-sites/std/sections/configYourViews.global.tsx": i2$$$$$12,
+    "deco-sites/std/sections/SEO.tsx": i2$$$$$13,
+    "deco-sites/std/sections/SEOPDP.tsx": i2$$$$$14,
+    "deco-sites/std/sections/SEOPLP.tsx": i2$$$$$15,
+    "deco-sites/std/sections/VTEXPortalDataLayerCompatibility.tsx": i2$$$$$16,
   },
+  "name": "deco-sites/realtime",
   "loaders": {
     "$live/loaders/secret.ts": i2$$$0,
     "$live/loaders/state.ts": i2$$$1,
@@ -236,9 +234,8 @@ const manifest = {
     "deco-sites/std/loaders/vtex/wishlist.ts": i2$$$29,
     "deco-sites/std/loaders/x/font.ts": i2$$$30,
     "deco-sites/std/loaders/x/image.ts": i2$$$31,
-    "deco-sites/std/loaders/x/realtime.ts": i2$$$32,
-    "deco-sites/std/loaders/x/redirects.ts": i2$$$33,
-    "deco-sites/std/loaders/x/redirectsFromCsv.ts": i2$$$34,
+    "deco-sites/std/loaders/x/redirects.ts": i2$$$32,
+    "deco-sites/std/loaders/x/redirectsFromCsv.ts": i2$$$33,
   },
   "handlers": {
     "$live/handlers/devPage.ts": i2$$$$0,
