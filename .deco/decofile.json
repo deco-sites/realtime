@@ -1,0 +1,233 @@
+{
+  "319": {
+    "name": "Start page",
+    "path": "/start",
+    "sections": {
+      "variants": [
+        {
+          "rule": {
+            "traffic": 0.5,
+            "__resolveType": "$live/matchers/MatchRandom.ts"
+          },
+          "value": {
+            "0": {
+              "__resolveType": "deco-sites/realtime/sections/Hello.tsx"
+            },
+            "1": {
+              "frequency": 120,
+              "__resolveType": "deco-sites/std/sections/AnalyticsRealtime.tsx"
+            },
+            "2": {
+              "__resolveType": "deco-sites/realtime/sections/Hero.tsx"
+            },
+            "3": {
+              "title": "hero2",
+              "headline": "oooi",
+              "__resolveType": "deco-sites/realtime/sections/Hero.tsx"
+            },
+            "variants": [
+              {
+                "rule": {
+                  "__resolveType": "$live/matchers/MatchAlways.ts"
+                },
+                "value": [
+                  {
+                    "title": "hero2",
+                    "headline": "oooiaaaaaa55555",
+                    "__resolveType": "deco-sites/realtime/sections/Hero.tsx"
+                  },
+                  {
+                    "frequency": 120,
+                    "__resolveType": "deco-sites/std/sections/AnalyticsRealtime.tsx"
+                  },
+                  {
+                    "__resolveType": "deco-sites/realtime/sections/Hero.tsx"
+                  },
+                  {
+                    "__resolveType": "deco-sites/realtime/sections/Hello.tsx"
+                  },
+                  {
+                    "title": "teste",
+                    "__resolveType": "deco-sites/std/sections/SEO.tsx"
+                  }
+                ]
+              }
+            ],
+            "__resolveType": "$live/flags/multivariate.ts"
+          }
+        },
+        {
+          "rule": {
+            "__resolveType": "$live/matchers/MatchAlways.ts"
+          },
+          "value": {
+            "0": {
+              "__resolveType": "deco-sites/realtime/sections/Hello.tsx"
+            },
+            "1": {
+              "frequency": 120,
+              "__resolveType": "deco-sites/std/sections/AnalyticsRealtime.tsx"
+            },
+            "2": {
+              "__resolveType": "deco-sites/realtime/sections/Hero.tsx"
+            },
+            "3": {
+              "title": "hero2",
+              "headline": "oooi",
+              "__resolveType": "deco-sites/realtime/sections/Hero.tsx"
+            },
+            "variants": [
+              {
+                "rule": {
+                  "__resolveType": "$live/matchers/MatchAlways.ts"
+                },
+                "value": [
+                  {
+                    "__resolveType": "deco-sites/realtime/sections/Hello.tsx"
+                  },
+                  {
+                    "frequency": 120,
+                    "__resolveType": "deco-sites/std/sections/AnalyticsRealtime.tsx"
+                  },
+                  {
+                    "__resolveType": "deco-sites/realtime/sections/Hero.tsx"
+                  },
+                  {
+                    "title": "hero2",
+                    "headline": "oooiaaaaaa",
+                    "__resolveType": "deco-sites/realtime/sections/Hero.tsx"
+                  },
+                  {
+                    "title": "teste",
+                    "description": "teste",
+                    "__resolveType": "deco-sites/std/sections/SEO.tsx"
+                  }
+                ]
+              }
+            ],
+            "__resolveType": "$live/flags/multivariate.ts"
+          }
+        }
+      ],
+      "__resolveType": "$live/flags/multivariate.ts"
+    },
+    "__resolveType": "$live/pages/LivePage.tsx"
+  },
+  "1318": {
+    "name": "Rich Text and Markdown",
+    "path": "/rich",
+    "sections": [
+      {
+        "html": "<p><span class=\"ql-size-huge\">Test!</span></p><p><span class=\"ql-size-large\">small</span></p><ul><li>bullets</li><li>test</li></ul>",
+        "__resolveType": "deco-sites/realtime/sections/QuillText.tsx"
+      },
+      {
+        "text": {
+          "path": "pg-vb-pt-br.md",
+          "repo": "deco-cx/blog",
+          "branch": "main",
+          "__resolveType": "deco-sites/realtime/functions/LoadGitHubRaw.ts"
+        },
+        "__resolveType": "deco-sites/realtime/sections/Markdown.tsx"
+      }
+    ],
+    "__resolveType": "$live/pages/LivePage.tsx"
+  },
+  "19137": {
+    "name": "Home - Start",
+    "path": "/",
+    "sections": {
+      "variants": [
+        {
+          "rule": {
+            "traffic": 0.5,
+            "__resolveType": "$live/matchers/MatchRandom.ts"
+          },
+          "value": [
+            {
+              "__resolveType": "SEO Default"
+            },
+            {
+              "title": "BANANANANA",
+              "headline": "NAAAAAAAAAAAAA",
+              "__resolveType": "deco-sites/realtime/sections/Hero.tsx"
+            },
+            {
+              "__resolveType": "deco-sites/realtime/sections/ParagraphList.tsx"
+            },
+            {
+              "__resolveType": "deco-sites/realtime/sections/SimpleTextList.tsx"
+            }
+          ]
+        },
+        {
+          "rule": {
+            "__resolveType": "$live/matchers/MatchAlways.ts"
+          },
+          "value": [
+            {
+              "__resolveType": "SEO Default"
+            },
+            {
+              "__resolveType": "deco-sites/realtime/sections/Hero.tsx"
+            },
+            {
+              "__resolveType": "deco-sites/realtime/sections/ParagraphList.tsx"
+            },
+            {
+              "__resolveType": "deco-sites/realtime/sections/SimpleTextList.tsx"
+            }
+          ]
+        }
+      ],
+      "__resolveType": "$live/flags/multivariate.ts"
+    },
+    "__resolveType": "$live/pages/LivePage.tsx"
+  },
+  "./routes/_middleware.ts": {
+    "state": [],
+    "__resolveType": "$live/loaders/state.ts"
+  },
+  "./routes/[...catchall].tsx": {
+    "audiences": [
+      {
+        "__resolveType": "everyone"
+      },
+      {
+        "__resolveType": "everyone"
+      },
+      {
+        "__resolveType": "everyone"
+      }
+    ],
+    "__resolveType": "$live/handlers/routesSelection.ts"
+  },
+  "Intro Deco": {
+    "links": [
+      {
+        "href": "https://twitter.com/decocx_commerce",
+        "title": "Twitter"
+      },
+      {
+        "href": "https://www.linkedin.com/company/deco-cx/?originalSubdomain=br",
+        "title": "LinkedIn"
+      },
+      {
+        "href": "http://github.com/deco-cx",
+        "title": "Github"
+      }
+    ],
+    "picture": "https://media.licdn.com/dms/image/D4D0BAQHBdzRnagoSUg/company-logo_200_200/0/1682012307830?e=2147483647&v=beta&t=rA3XxMn_rYI2MZTJS3FoLUodnOKCSTowLjK46tW58uM",
+    "headline": "deco.cx",
+    "introduction": "<p><a href=\"deco.cx\" target=\"_blank\">deco.cx</a> is the best way for you to build your site</p>",
+    "__resolveType": "deco-sites/realtime/sections/Intro.tsx"
+  },
+  "SEO Default": {
+    "type": "website",
+    "image": "https://www.deco.cx/decocx-meta-en.png",
+    "title": "Start by deco",
+    "description": "This is a site template for deco.cx",
+    "__resolveType": "deco-sites/std/sections/SEO.tsx",
+    "titleTemplate": "%s | Start by deco.cx"
+  }
+}
